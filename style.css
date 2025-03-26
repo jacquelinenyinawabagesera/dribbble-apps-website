@@ -1,0 +1,428 @@
+@font-face {
+    font-family: agba;
+    src: url(./fonts/Agbalumo-Regular.ttf);
+}
+.download-number{
+    font-family: agba;
+    font-size: 5vh;
+}
+.download-label{
+    font-size: 2vh;
+}
+.intro-text{
+    font-family: agba;
+    font-size: 3vh
+}
+.intro-text a{
+    color: rgb(248, 57, 57);
+}
+
+.navigation-links {
+    list-style: none;
+    display: flex;
+    gap: 2vh;
+    margin-top: 0.5vh;
+}
+
+
+.navigation-links li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vh;
+}
+.logo-dit{
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+.navigation-buttons{
+    text-decoration: none;
+    padding: 1vh;
+    border-radius: 10%;
+}
+
+.login{
+    color: black;
+    border: none;
+    padding: 1vh;
+}
+.intoduction-container{
+    margin-top: 10vh;
+    margin-left: 7vh;
+}
+.app-store-container{
+    background-color: rgb(1, 1, 94);
+    /* padding: 0.5vh; */
+}
+.play-store-container{
+    background-color: white;
+}
+.intoduction-container h1 a{
+  color: red;  
+}
+
+.signup{
+
+    background: rgb(230,137,211);
+    color: white;
+    border: none;
+    padding: 1vh;
+    border-radius: 1vh;
+}
+.header{
+    /* margin: auto;
+    width: 95%; */
+    /* background-color: rgb(239,251,247); */
+    background: rgb(239,251,247);
+    box-shadow: 0 2px 10px rgba(51, 48, 48, 0.1);
+    padding: 10vh;
+}
+.navigation-bar{
+    margin-top: -6vh;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+
+}
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    margin-left: -100vh;
+}
+.nav-menu a{
+    text-decoration: none;
+    gap: 2vh;
+}
+.nav-link{
+    margin-left: 3vh;
+    margin-right: 3vh;
+}
+.logo-container{
+    display: flex;
+    width: 10vh;
+    margin: auto;
+    gap: 2vh;
+    justify-content: center;
+    /* height: 10vh; */
+}
+.auth-buttons{
+    margin-left: 5vh;
+    display: flex;
+    gap: 7vh;
+}
+/* .logo-item{
+    width: 1vh;
+} */
+ .logo-image{
+width: 20vh;
+margin-top: -1vh;
+ }
+ .trello-image{
+    margin-top: 1vh;
+    width: 20vh;
+ }
+ .google-image{
+    /* margin-top: 1vh; */
+    width: 15vh;
+ }
+ .dropbox-image{
+    margin-top: 1vh;
+    width: 20vh; 
+ }
+ .slack-image{
+    margin-top: 1.5vh;
+    width: 20vh; 
+ }
+.section-title{
+    text-align: center;
+    color: rgb(126, 119, 119);
+}
+.section-title strong{
+    color: black;
+}
+.product-intro-text{
+    text-align: center;
+}
+.interface-wrapper{
+border: 1px solid #f743f7;
+padding: 3vh;
+background-color: white;
+border-radius: 2vh;
+}
+.secured-wrapper{
+padding: 3vh;
+border-radius: 2vh;
+background-color: white;
+}
+.support-container{
+    padding: 5vh;
+    border-radius: 2vh;
+    background-color: white;
+}
+.features-container{
+    width: 50%;
+    margin: auto;
+    padding: 6vh;
+    border-radius: 2vh;
+    background-color: rgb(240,249,255);
+    display: flex;
+    gap: 2vh;
+ justify-content: center;
+}
+.customer-global-heading{
+    text-align: center;
+}
+.statistics-section{
+    display: flex;
+    justify-content: center;
+    gap: 30vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.active-download-container{
+    display: flex;
+    gap: 3vh;
+}
+.using-group-container{
+    display: flex;
+    gap: 3vh;
+}
+.fa-star{
+    background-color: rgb(243, 204, 211);
+    padding: 1vh;
+    border-radius: 2vh;
+}
+.star-container{
+    /* padding: 1vh; */
+    /* border-radius: 1vh; */
+    align-self: center;
+}
+
+.app-interface-section{
+    width: 70vh;
+    margin: auto;
+}
+.app-interface-container{
+    background-color: rgb(254,242,242);
+    padding: 5vh;
+}
+.interface-cta{
+    border: none;
+    color: white;
+    background-color: rgb(2, 2, 88);
+    padding: 1vh;
+    border-radius: 0.5vh;
+}
+
+
+.testimonial-container{
+    display: flex;
+    gap: 5vh;
+    position:relative;
+    justify-content: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+
+}
+.testimonial-content{
+    /* border: 1px solid; */
+    background-color: white;
+    background: rgb(239,251,247);
+    box-shadow: 0 2px 10px rgba(143, 18, 18, 0.1);
+    /* padding: 3vh; */
+    height: 5vh;
+}
+/* .testimonial-division{
+    background-color: blue;
+    height: 10vh;
+} */
+.testimonial-rating{
+    position: absolute;
+    /* left:10; */
+    top: 1vh;
+}
+.testimonial-header{
+    text-align: center;
+}
+
+
+.app-download-section{
+    display: flex;
+    justify-content: center;
+    gap: 7vh;
+    margin-bottom: 10vh;
+}
+.download-info-container{
+   margin-top: 6vh;
+}
+.store-buttons{
+    display: flex;
+    gap: 3vh;
+}
+.app-store-button{
+    display: flex;
+    background-color: rgb(2, 2, 96);
+    border: 1px solid ;
+    padding: 0.2vh;
+    width: 10vh;
+    border-radius:0.5vh ;
+    gap: 1vh;
+}
+.app-store-icon{
+    color: white;
+}
+.store-button-text{
+    color: rgb(55, 26, 26);
+}
+.splay-tore-button-text{
+    border: none;
+    background-color: white;
+}
+.testimonial-header a{
+    color: red;
+}
+.testimonial-wrapper{
+    border: 1px solid #ffc0cb;
+    padding: 2vh;
+    border-radius: 5vh;
+}
+/* .platform-note{
+    
+} */
+.play-store-button{
+    display: flex;
+    border: 1px solid ;
+    padding: 0.3vh;
+    /* margin-left: -1vh; */
+    width: 10vh;
+    border-radius:0.5vh ;
+}
+.fa-apple{
+    font-size: 2vh;
+    margin-top: 1.5vh;
+    color: white;
+}
+/* .app-store-icon{
+    margin-top: 1.2vh;
+} */
+
+.footer-container{
+display: flex;
+justify-content: space-around;
+background-color: rgb(37,40,73);
+padding: 5vh;
+}
+.social-media-section{
+/* display: flex; 
+gap: 2vh; */
+}
+.social-icons{
+    display: flex;
+    gap:2vh;
+}
+.social-icons i{
+    color: white;
+}
+.footer-links-section{
+    display: flex;
+    gap: 10vh;
+}
+.footer-heading{
+    color: white;
+    font-size: 2vh;
+}.footer-list{
+    display: inline;
+}
+.footer-list li a{
+    text-decoration: none;
+    color: rgb(131, 131, 131);
+    font-size: 2vh;
+}
+.footer-list li{
+   list-style: none;
+}
+
+
+.store-logos-image{
+    width: 33vh;
+}
+.bottom-footer{
+   background-color: black; 
+   padding: 5vh;
+   width: 95%;
+   display: flex;
+   justify-content: space-around;
+}
+.copyright-info{
+display: flex;
+gap: 3vh;
+}
+.copyright-info p{
+    color: white;
+}
+.legal-links{
+display: flex;
+gap: 5vh;
+}
+.legal-links p{
+    color: white;
+}
+.store-button-text{
+    background-color: rgb(2, 2, 96);
+    border: none;
+    color: white;
+}
+.main-footer{
+    position: sticky;
+}
+
+@media screen and (min-width:320px) and ( max-width:500px){
+    .app-download-section{
+        /* margin-left: 1vh; */
+        flex-wrap: wrap;
+        gap: 0.1vh;
+    }
+    .main-footer{
+        flex-wrap: wrap;
+    }
+    .copyright-info{
+        flex-wrap: wrap;
+    }
+    .bottom-footer{
+      display: flex;
+      flex-direction: column;
+    }
+    .footer-container{
+        /* width: 70vh; */
+        /* display: flex; */
+        /* flex-direction: column; */
+        flex-wrap: wrap; 
+    }
+    .bottom-footer{
+        width: 50vh;
+    }
+    .testimonial-container{
+        flex-wrap: wrap;
+    }
+    .logo-container{
+        flex-wrap: wrap;
+    }
+    .features-container{
+        flex-wrap: wrap;
+    }
+    .statistics-section{
+        flex-wrap: wrap;
+    }
+    .navigation-bar{
+        flex-wrap: wrap;
+    }
+    .navigation-links{
+        flex-wrap: wrap;
+        margin-right:2vh ;
+    }
+    .navigation-buttons{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5vh;
+    }
+}
