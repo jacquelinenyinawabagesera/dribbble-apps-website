@@ -156,17 +156,20 @@ margin-left: -1vh;
 }
 .interface-wrapper{
 border: 1px solid #f743f7;
-padding: 3vh;
+padding: 7vh;
 background-color: white;
 border-radius: 2vh;
+width: 25vh;
 }
 .secured-wrapper{
-padding: 3vh;
+padding: 7vh;
 border-radius: 2vh;
 background-color: white;
+width: 25vh;
 }
 .support-container{
-    padding: 5vh;
+    width: 25vh;
+    padding: 7vh;
     border-radius: 2vh;
     background-color: white;
 }
@@ -178,7 +181,7 @@ background-color: white;
 .features-wrapper{
     background-color: rgb(240,249,255);
     width: 70vw;
-    padding: 6vh;
+    padding: 15vh;
     margin: auto;
     border-radius: 2vh;
 }
@@ -222,6 +225,16 @@ background-color: white;
     /* padding: 1vh; */
     /* border-radius: 1vh; */
     align-self: center;
+    margin-bottom: 3vh;
+}
+.feature-title{
+    margin-bottom: 5vh;
+}
+.fa-eye-dropper-container{
+    margin-bottom: 5vh;
+}
+.fa-eye-dropper-container{
+    margin-bottom: 5vh;
 }
 
 .app-interface-section{
