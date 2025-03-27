@@ -10,7 +10,6 @@
 body{
     /* width: 50vw; */
     margin: auto;
-    background-color: #f743f7;
 }
 
 .download-number{
@@ -125,8 +124,9 @@ body{
     width: 1vh;
 } */
  .logo-image{
-width: 20vh;
-margin-top: -1vh;
+width: 8vh;
+margin-top: -20vh;
+margin-left: -1vh;
  }
  .trello-image{
     margin-top: 1vh;
@@ -203,6 +203,19 @@ background-color: white;
     padding: 1vh;
     border-radius: 2vh;
 }
+.fa-eye-dropper{
+    background-color: rgb(245, 207, 214);
+    padding: 1vh;
+    border-radius: 2vh;
+}
+.settings-container{
+    background-color: white;
+}
+.fa-water-ladder{
+    background-color:rgb(175, 226, 247);
+    padding: 1vh;
+    border-radius: 2vh;  
+}
 .star-container{
     /* padding: 1vh; */
     /* border-radius: 1vh; */
@@ -212,10 +225,23 @@ background-color: white;
 .app-interface-section{
     width: 70vh;
     margin: auto;
+    margin-bottom: 10vh;
+}
+.settings-container{
+    margin-left: 40vh;
+    height: 50vh;
+    width: 10vw;
+    border-radius: 2vh;
+    padding: 6vh;
+    overflow: hidden;
 }
 .app-interface-container{
     background-color: rgb(254,242,242);
     padding: 5vh;
+    height: 50vh;
+    width: 50vw;
+    margin: auto;
+    margin-top: 10vh;
 }
 .interface-cta{
     border: none;
@@ -313,15 +339,26 @@ background-color: white;
   }
   .watch-button-container{
     position: absolute;
+    background-color: white;text-align: center;padding: 1vh;width: 30vh;border-radius: 1vh;
     margin-top: 18vh;
     margin-left: 48vh;
     
+  }
+  .watch-button-container p{
+    color: black;
   }
   
   .study-call-to-action {
     position: absolute;
     bottom: 0.5vh; 
     right: 48vh; 
+    background-color: white;padding: 1vh;text-align: center;border-radius: 2vh;
+  }
+  .study-call-to-action h2 p{
+    color: black;text-align: center;
+  }
+  .join-button-container{
+    align-self: center;
   }
   
   .info-text {
@@ -339,13 +376,23 @@ background-color: white;
    margin-bottom: 4vh;
    width: 70vw;
    margin: auto;
-   background-color: #0056b3;
+   margin-top: 4vh;
+   /* background-color: #0056b3; */
   }
   .customer-global-container img{
     width: 7vh;
   }
+  .watch-button{
+    background-color:  blue;
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+  }
+  .watch-button:hover{
+    background-color:rgb(245, 97, 122); 
+  }
   
-  .watch-button, .study-call-to-action button {
+ .study-call-to-action button {
     background-color:rgb(245, 97, 122); 
     color: white; 
     border: none; 
@@ -353,8 +400,8 @@ background-color: white;
     cursor: pointer; 
   }
   
-  .watch-button:hover, .study-call-to-action button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+  .study-call-to-action button:hover {
+    background-color: #0056b3; 
   }
   
 .splay-tore-button-text{
@@ -458,7 +505,8 @@ gap: 2vh; */
 .bottom-footer{
    background-color: black; 
    padding: 5vh;
-   width: 95%;
+   width: 94.7%;
+   margin: auto;
    display: flex;
    justify-content: space-around;
 }
@@ -477,6 +525,9 @@ gap: 3vh;
 display: flex;
 gap: 5vh;
 }
+/* .logo-image{
+    position: absolute; top: 0; right: 0; width: 6vh; z-index: 1;margin-left: -100vh;
+} */
 .legal-links p{
     color: white;
 }
@@ -489,10 +540,10 @@ gap: 5vh;
     position: sticky;
 }
 .product-features-section{
+    position: relative;
     width: 90.4vw;
     margin: auto;
 }
-
 @media screen and (min-width:320px) and ( max-width:500px){
     .app-download-section{
         /* margin-left: 1vh; */
@@ -544,9 +595,9 @@ gap: 5vh;
     } */
 }
 @media (min-width: 1024px) {
-    .bottom-footer{
+    /* .bottom-footer{
         width: 91.4vw;
-    }
+    } */
     .account-info-container{
         width: 40vw;
         margin-left: 10vh;
@@ -558,15 +609,15 @@ gap: 5vh;
         width: 50vh;
         gap: 2vh;
     }
-    .footer-container{
-        /* margin-right: 0vh; */
+    /* .footer-container{
+     margin-right: 0vh;
         width: 65vw;
         margin: auto;
-    }
-    .bottom-footer{
+    } */
+    /* .bottom-footer{
         width: 65vw;
         margin: auto;
-    }
+    } */
     .app-download-section{
         width: 73.5vw;
         margin: auto;
